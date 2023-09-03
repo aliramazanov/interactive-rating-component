@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(180, 2%, 8%);
+}
+
+.app-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.rating-component {
+  user-select: none;
+  color: white;
+  background-color: hsl(216, 19%, 16%);
+  width: 37rem;
+  height: 37rem;
+  padding: 3.8rem;
+  border: transparent;
+  border-radius: 3rem;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2a313d;
+  width: 5.4rem;
+  height: 5.4rem;
+  border: transparent;
+  border-radius: 50%;
+  background-color: hsl(216, 16%, 19%);
+  margin-bottom: 2rem;
+}
+
+.image-wrapper img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.main-texts {
+  margin-bottom: 2rem;
+}
+
+.header-text {
+  margin-bottom: 1rem;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+}
+
+.body-text span {
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+.body-text {
+  max-width: 33rem;
+  color: gray;
+}
+
+.rating-numbers-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number-of-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 5.4rem;
+  height: 5.4rem;
+  background-color: hsl(212, 16%, 19%);
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: transparent;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.number-of-rating:hover {
+  cursor: pointer;
+  background-color: hsl(217, 12%, 63%);
+}
+
+.selected {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.button-rating-component {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-rating-component button {
+  width: 100%;
+  color: white;
+  font-size: 1.8rem;
+  padding-top: 2.8rem;
+  padding-bottom: 2.2rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+  line-height: 0;
+}
+
+.button-rating-component button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* Elements which appear after clicking Submit button are styled below*/
+
+.thanks-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.thanks-img-wrapper {
+  align-self: center;
+  margin-bottom: 4rem;
+}
+
+.thanks-img {
+  width: 20rem;
+  height: 13rem;
+}
+
+.thanks-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.thanks-selection-wrapper {
+  margin-bottom: 4rem;
+}
+
+.thanks-selection {
+  font-size: 1.4rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4rem;
+  background: #2a313d;
+  color: hsl(25, 97%, 53%);
+}
+
+.thanks-header {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.thanks-body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: gray;
+}
